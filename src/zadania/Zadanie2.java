@@ -11,8 +11,6 @@ public class Zadanie2 {
                 return "Czesc ";
             }
         });
-
-        display(() -> "Czesc");
     }
 
     public static void display(Supplier<String> supplier)
